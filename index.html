@@ -8,5 +8,15 @@
 </head>
 <body>
     <h1>Hello3</h1>
+
+
+    <h1>
+        Powershell reset expired user account
+    </h1>
+        <code>
+            Set-ADUser -Identity  username  -Replace @{pwdlastset="0"}
+            Set-ADUser -Identity  username  -Replace @{pwdlastset="-1"}
+        </code>
+    </h1>
 </body>
 </html>

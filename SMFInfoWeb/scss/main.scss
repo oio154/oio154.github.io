@@ -1,0 +1,32 @@
+body, h1, h2, h3{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    font-size: 14px;
+}
+.logo, section{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    img{
+        height: 40px;
+    }
+    div{
+        margin-left: 1rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        h1{
+            font-size: 1rem;
+            color: #0C2E55;
+        }
+    }
+}

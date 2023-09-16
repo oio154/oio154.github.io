@@ -4,7 +4,8 @@ body, h1, h2, h3 {
   border: 0; }
 
 body {
-  font-size: 14px; }
+  font-size: 14px;
+  background-size: cover; }
 
 .logo, section {
   display: block;

@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "css": "node-sass SMFInfoWeb/scss/ -o SMFInfoWeb/css/ ",
-    "css:watch": "node-sass --watch SMFInfoWeb/scss/ -o SMFInfoWeb/css/ "
+    "style": "node-sass SMFInfoWeb/scss/ -o SMFInfoWeb/css/ ",
+    "stylew": "node-sass SMFInfoWeb/scss/ -wo SMFInfoWeb/css/ "
+    
   },
   "author": "Vermillion Jacek Grabowski",
   "license": "ISC",

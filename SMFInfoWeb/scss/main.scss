@@ -1,11 +1,15 @@
-body, h1, h2, h3{
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-body{
-    font-size: 14px;
-    background-size: cover;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body, h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+body {
+  font-size: 14px;
+  background-size: cover; 
+ 
+  font-family: 'Roboto', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .logo, section{
     display: block;
@@ -30,4 +34,13 @@ body{
             color: #0C2E55;
         }
     }
+}
+
+section{
+    padding: 25px;
+    h1{
+        margin-bottom: 20px;
+    }
+    
+
 }

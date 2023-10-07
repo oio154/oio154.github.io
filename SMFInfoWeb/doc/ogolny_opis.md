@@ -8,3 +8,20 @@ Strona przetwarzana jest wraz z innymi podstronami. Źródło stron w linku. Mo�
 ```bash
 https://github.com/oio154/oio154.github.io/tree/master/SMFInfoWeb
 ```
+
+# Zamieszczanie obrazu w litdocu.
+
+Do sprawdzenia wyłącznie z mojej ciekawości jak to zadziała. Mianowicie nie mam pojęcia, przed sprawdzeniem tego:
+    * czy w ogóle da się załączyć obraz
+    * jak załączyć obraz
+    * czy zadziała wyłącznie z linka internetowego czy też może z linka wewnątrz repo.
+
+a więc sprawdzamy?
+
+![Logo](../img/logo.png)
+
+no i jakiś tekst poniżej obrazka oraz link w kodzie
+
+```
+../img/logo.png
+```

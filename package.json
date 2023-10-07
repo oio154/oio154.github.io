@@ -7,11 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "style": "node-sass SMFInfoWeb/scss/ -o SMFInfoWeb/css/ ",
     "stylew": "node-sass SMFInfoWeb/scss/ -wo SMFInfoWeb/css/ "
-    
   },
   "author": "Vermillion Jacek Grabowski",
   "license": "ISC",
   "devDependencies": {
+    "litdoc": "^1.5.6",
     "node-sass": "^9.0.0"
   }
 }

@@ -1,0 +1,44 @@
+
+
+
+
+.logo{
+
+
+    &-component{
+        display: flex;
+        background: white;
+        padding: 10px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-around;
+        align-items: stretch;
+        background: white;
+        padding: 10px;
+    }
+    
+    &-image{
+        img.logo-img{
+            width: 80px;
+            
+        }
+    }
+
+    &-text{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: flex-start;
+        justify-content: center;
+        align-items: flex-end;
+        &-main{
+            font-size: 2rem;
+        }
+        &-sub{
+            font-size: 0.8rem;
+        }
+    }
+    
+}
+

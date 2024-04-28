@@ -1,1 +1,8 @@
-
+<div class="centerflex">
+    <div  class="articles">
+        <div *ngFor="let article of articles" class="article">
+            <h1>{{article.title}}</h1>
+            <div class="article-text" [innerHTML]="article.tx"></div>
+        </div>
+    </div>
+</div>

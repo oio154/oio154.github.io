@@ -12,7 +12,7 @@ export class ArticleDataService {
     {
       id: "OIDJF-388D88-IODSJF8-OSDIF7",
       title: "2025",
-      tx: "<p>Szczęśliwego nowego roku</p><img src=\"/assets/ai-generated-9147506_1280.jpg\">"
+      tx: "<p>Szczęśliwego nowego roku</p><img src=\"/SMFInfoWeb/assets/ai-generated-9147506_1280.jpg\">"
     },
   ];
 

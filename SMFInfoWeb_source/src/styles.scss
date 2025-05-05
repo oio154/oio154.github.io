@@ -1,16 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-$backgroundColor: #0c2e52;
-
-
-@import 'molecular-background';
 body{
-    background-color: $backgroundColor;
-    background-image: $molecularBackground;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 12px;
-    font-family: "Poppins", sans-serif;
+    background: darkblue;
+    background-image: url("/ai-night-city.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    color: white;
+
+    div.white{
+        background-color: whitesmoke;
+        color: #222;
+        border-radius: 7px;
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+
+
 }

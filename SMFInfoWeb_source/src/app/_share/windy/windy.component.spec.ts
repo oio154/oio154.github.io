@@ -11,7 +11,7 @@ describe('WindyComponent', () => {
       imports: [WindyComponent]
     })
     .compileComponents();
-    
+
     fixture = TestBed.createComponent(WindyComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

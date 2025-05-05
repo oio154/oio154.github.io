@@ -41,6 +41,8 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/SMFInfoWeb/",
+              "deployUrl": "/SMFInfoWeb/",
               "budgets": [
                 {
                   "type": "initial",

@@ -57,3 +57,44 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+## Settings
+
+ng version
+
+     _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+    
+
+Angular CLI: 19.2.10
+Node: 22.9.0
+Package Manager: npm 10.8.3
+OS: linux x64
+
+Angular: 19.2.9
+... common, compiler, compiler-cli, core, forms
+... platform-browser, platform-browser-dynamic, router
+
+Package                         Version
+---------------------------------------------------------
+@angular-devkit/architect       0.1902.10
+@angular-devkit/build-angular   19.2.10
+@angular-devkit/core            19.2.10
+@angular-devkit/schematics      19.2.10
+@angular/cli                    19.2.10
+@schematics/angular             19.2.10
+rxjs                            7.8.2
+typescript                      5.7.3
+zone.js                         0.15.0
+
+
+npm -v
+10.8.3
+
+node -v
+v22.9.0

@@ -1,0 +1,38 @@
+name: Build and Deploy SMFInfoWeb
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: SMFInfoWeb_source
+
+      - name: Build Angular application
+        run: npm run build
+        working-directory: SMFInfoWeb_source
+
+      - name: Commit build output to SMFInfoWeb folder
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f SMFInfoWeb/
+          git commit -m "build: automatyczna kompilacja SMFInfoWeb [skip ci]" || echo "No changes to commit"
+          git push origin master

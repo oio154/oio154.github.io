@@ -3,5 +3,5 @@ import { MainComponent } from './components/main/main.component';
 import { canSeeGuard } from './guards/can-see.guard';
 
 export const routes: Routes = [
-    {path: ":user/:key", component: MainComponent, canActivate:[canSeeGuard]}
+    {path: "", component: MainComponent, canActivate:[canSeeGuard]}
 ];

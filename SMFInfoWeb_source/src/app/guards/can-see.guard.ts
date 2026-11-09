@@ -5,12 +5,12 @@ export const canSeeGuard: CanActivateFn = (route, state) => {
   
   
   
-  const key = route.paramMap.get("key");
-  const user = route.paramMap.get("user");
+  const key = route.queryParamMap.get("key");
+  //const user = route.paramMap.get("user");
   
   if(key!=='Xcvs8Nd'){
     return false;
   }
-  
+
   return true;
 };
